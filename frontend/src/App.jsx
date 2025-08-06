@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Homepage />
+
       <Footer />
     </>
   )
